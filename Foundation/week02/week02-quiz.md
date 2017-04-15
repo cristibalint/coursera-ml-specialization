@@ -44,3 +44,19 @@ w0
 ## 9. True or false: One always prefers to use a model with more features since it better captures the true underlying process. ##
 
 FALSE
+
+___
+
+# Predicting house prices #
+
+## 1. Selection and summary statistics: We found the zip code with the highest average house price. What is the average house price of that zip code? ##
+
+$2,160,607
+
+## 2. Filtering data: What fraction of the houses have living space between 2000 sq.ft. and 4000 sq.ft.? ##
+
+Between 0.4 and 0.49
+
+## 3. Building a regression model with several more features: What is the difference in RMSE between the model trained with my_features and the one trained with advanced_features? ##
+
+The RMSE of the model with advanced_features lower by less than $25,000
