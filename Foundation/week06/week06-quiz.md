@@ -54,4 +54,79 @@ a deep neural network trained on this data.
 
 ---
 
+## Deep features for image retrieval ##
+
+### 1. What’s the least common category in the training data? ###
+
+**bird**
+
+dog
+
+cat
+
+automobile
+
+### 2. Of the images below, which is the nearest ‘cat’ labeled image in the training data to the the first image in the test data (image_test[0:1])? ###
+
+<img src="quiz/cat1.png">
+<img src="quiz/cat2.png">
+<img src="quiz/cat3.png">
+<img src="quiz/cat4.png">
+<img src="quiz/cat5.png">
+<kbd>
+  <img src="quiz/cat6.png">
+</kbd>
+
+### 3. Of the images below, which is the nearest ‘dog’ labeled image in the training data to the the first image in the test data (image_test[0:1])? ###
+
+<img src="quiz/dog1.png">
+<img src="quiz/dog2.png">
+<img src="quiz/dog3.png">
+<kbd>
+  <img src="quiz/dog4.png">
+</kbd>
+<img src="quiz/dog5.png">
+<img src="quiz/dog6.png">
+
+### 4. For the first image in the test data, in what range is the mean distance between this image and its 5 nearest neighbors that were labeled ‘cat’ in the training data? ###
+
+33 to 35
+
+**35 to 37**
+
+37 to 39
+
+39 to 41
+
+Above 41
+
+### 5. For the first image in the test data, in what range is the mean distance between this image and its 5 nearest neighbors that were labeled ‘dog’ in the training data? ###
+
+33 to 35
+
+35 to 37
+
+**37 to 39**
+
+39 to 41
+
+Above 41
+
+### 6. On average, is the first image in the test data closer to its 5 nearest neighbors in the ‘cat’ data or in the ‘dog’ data? ###
+
+**cat**
+
+dog
+
+### 7. In what range is the accuracy of the 1-nearest neighbor classifier at classifying ‘dog’ images from the test set? ###
+
+50 to 60
+
+**60 to 70**
+
+70 to 80
+
+80 to 90
+
+90 to 100
 
